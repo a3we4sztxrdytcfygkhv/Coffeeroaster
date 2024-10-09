@@ -1,0 +1,57 @@
+// HERO SECTION STYLE START 
+
+.hero-section {
+    background-image: url(../images/site-bg-2.png);
+    position: relative;
+}
+.hero {
+    padding-top: 116px;
+    padding-bottom: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.hero__content-wrapper {
+    width: 464px;
+    display: flex;
+    flex-direction: column;
+
+}
+.hero__title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1) ;
+}
+.hero__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 24px;
+}
+.hero__btn {
+    @include site-btn($width: 193px);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 34px;
+}
+.hero__img-1 {
+    position: absolute;
+    top: -74px;
+    right: 0;
+    left: 130px;
+    margin: 0 auto;
+    z-index: 2;
+}
+.hero__img-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
