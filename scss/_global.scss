@@ -16,4 +16,8 @@ body{
     margin: 0 auto;
     padding: 0 20px;
 }
+.site-main {
+    display: flex;
+    flex-direction: column;
+}
 $main-color: rgba(10, 119, 95, 1);

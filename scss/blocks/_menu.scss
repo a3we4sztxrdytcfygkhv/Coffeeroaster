@@ -1,17 +1,13 @@
 // MENU SECTION STYLE START 
 
 .menu-section {
-    position: relative;
     padding: 20px;    
 }
 .container-wrapper {
-    width: 1400px;
-    position: absolute;
-    background-image:  url(../images/menu-bg-1.png), url(../images/menu-bg-2.png), url(../images/menu-bg-3.png),url(../images/menu-bg.png);
+    background-image:  url(../images/menu-bg.png);
     background-repeat: no-repeat;
-    background-size: 201px 250px,  196px 288px, 158px 135px, cover,; 
-    background-position: top left , center right , bottom left; 
-    z-index: 50;
+    background-size: cover,; 
+    background-position: center; 
 }
 .menu {
     display: flex;

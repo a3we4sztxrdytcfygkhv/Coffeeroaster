@@ -1,0 +1,53 @@
+// ABOUT SECTION STYLE START 
+
+.about-section {
+    padding: 20px;
+}
+.container-wrapper-2 {
+    background-image: url(../images/about-bg.png);
+}
+.about {
+    padding-top: 50px;
+    height: 703px;
+}
+.about__content-wrapper {
+    width: 581px;
+    margin: 0 auto;
+}
+.about__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.59px;
+    text-align: center;
+    color: white;
+}
+.about__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+.about__card-wrapper {
+    display: flex;
+    gap: 20px;
+}
+.about__card {
+    margin-top: 80px;
+}
+.about__card-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35.16px;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 28px;
+}
+.about__card-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 10px;
+}
